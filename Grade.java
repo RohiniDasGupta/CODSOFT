@@ -4,7 +4,8 @@ public class Grade
     public static void main(String args[])
     {
         int total = 0;
-        try (Scanner sc = new Scanner(System.in)) {
+        try (Scanner sc = new Scanner(System.in)) 
+        {
             System.out.print("Enter the number of subjects: ");
             int n = sc.nextInt();
             int marks[] = new int[n];
@@ -34,15 +35,20 @@ public class Grade
 
             // Grade calculation
             String grade;
-            if (averagePercentage >= 90) {
+            if (averagePercentage >= 90) 
+            {
                 grade = "A";
-            } else if (averagePercentage >= 80) {
+            } else if (averagePercentage >= 80) 
+            {
                 grade = "B";
-            } else if (averagePercentage >= 70) {
+            } else if (averagePercentage >= 70) 
+            {
                 grade = "C";
-            } else if (averagePercentage >= 60) {
+            } else if (averagePercentage >= 60) 
+            {
                 grade = "D";
-            } else {
+            } else 
+            {
                 grade = "F";
             }
 
